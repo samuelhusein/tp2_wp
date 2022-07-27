@@ -175,6 +175,10 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+
+        //Captcha
+        "Buzz\LaravelGoogleCaptcha\CaptchaServiceProvider"
+
     ],
 
     /*
@@ -230,6 +234,9 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
 
+
+        //Captcha
+        'Captcha' =>"Buzz\LaravelGoogleCaptcha\CaptchaServiceProvider",
     ],
 
 ];
